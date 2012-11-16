@@ -19,6 +19,6 @@ public abstract class Handler {
 		this.handler = handler;
 	}
 
-	public abstract Boolean handleRequest(MyRequest myRequest);
+	public abstract Boolean handleRequest(Request request);
 
 }
