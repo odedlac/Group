@@ -10,7 +10,7 @@ import java.util.Map;
  * @author oded
  *
  */
-public class Accounts extends AbstractSubject {
+public class Accounts {
 
 	Map<Integer,Integer> numberToBalance;
 	
@@ -27,14 +27,12 @@ public class Accounts extends AbstractSubject {
 	}
 	
 	public Integer openNewAccount() {
-		super.notifyObservers();
 		Integer accountNumber = numberToBalance.size()+1;
 		numberToBalance.put(accountNumber, 0);
 		return accountNumber;	
 	}
 
 	public Boolean deposit(Integer accountNo, Integer sumDeposited) {
-		super.notifyObservers();
 		if(doesAccountExist(accountNo)){
 			numberToBalance.put(accountNo, sumDeposited);
 			return true;
@@ -50,7 +48,6 @@ public class Accounts extends AbstractSubject {
 	}
 
 	public Boolean withdraw(Integer accountNo, Integer sumWithdrawn) {
-		super.notifyObservers();
 		if(doesAccountExist(accountNo)){
 			numberToBalance.put(accountNo, numberToBalance.get(accountNo)-sumWithdrawn);
 			return true;
