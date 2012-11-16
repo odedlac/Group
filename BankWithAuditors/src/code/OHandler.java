@@ -19,13 +19,12 @@ public class OHandler extends Handler {
 		if (requestType.equals(request.getRequestType())){
 			String instruction = request.getInstruction();
 			String instructionField = request.getInstructionField();
-			System.out.println(instruction + "   " + instructionField);
+			System.out.println(requestType + " " + instruction + "   " + instructionField);
 			return true;
 		} else {
 			if(handler != null){
-				this.handler.handleRequest(request);
-				return false;
-			}
+				return this.handler.handleRequest(request);
+			} 
 		}
 		return false;
 	}

@@ -28,10 +28,10 @@ public class ChainFactory {
 		for (Handler ob : handlers) {
 			if(obP != null){
 				obP.setHandler(ob);
-				obP = ob;
 			}
+			obP = ob;
 		}	
-		return handlers.get(1);
+		return handlers.get(0);
 	}
 
 }
