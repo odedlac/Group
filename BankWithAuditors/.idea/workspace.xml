@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fae7ed5-e570-4a5d-89ca-ef0f63c63807" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Exper.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/code/THandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/RequestTest.java" afterPath="$PROJECT_DIR$/src/tests/RequestTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/ChainFactoryTest.java" afterPath="$PROJECT_DIR$/src/tests/ChainFactoryTest.java" />
     </list>
     <ignored path="Exper.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,6 +14,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Exper$tests_in_Exper.coverage" NAME="tests in Exper Coverage Results" MODIFIED="1353863225118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>tests.*</FILTER>
+    </SUITE>
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -70,19 +66,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="RequestTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="RequestTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tests/RequestTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="495" selection-end="495" vertical-scroll-proportion="0.33200794">
+            <state line="23" column="0" selection-start="495" selection-end="495" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Assert.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/Assert.class">
+      <file leaf-file-name="ChainFactoryTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tests/ChainFactoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="101" column="24" selection-start="5684" selection-end="5684" vertical-scroll-proportion="-6.12">
+            <state line="68" column="98" selection-start="1495" selection-end="1495" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -115,10 +111,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="THandlerTest.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="THandlerTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/tests/THandlerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="46" selection-start="587" selection-end="587" vertical-scroll-proportion="0.0">
+            <state line="22" column="52" selection-start="480" selection-end="480" vertical-scroll-proportion="0.5925926">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -179,6 +175,7 @@
         <option value="$PROJECT_DIR$/src/tests/RequestTest.java" />
         <option value="$PROJECT_DIR$/src/tests/OHandlerTest.java" />
         <option value="$PROJECT_DIR$/src/tests/THandlerTest.java" />
+        <option value="$PROJECT_DIR$/src/tests/ChainFactoryTest.java" />
       </list>
     </option>
   </component>
@@ -440,7 +437,9 @@
       </option>
       <envs />
       <patterns />
+      <RunnerSettings RunnerId="Cover" />
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Cover" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -540,6 +539,11 @@
       <created>1353860528612</created>
       <updated>1353860528612</updated>
     </task>
+    <task id="LOCAL-00001" summary="implement my THandler">
+      <created>1353862967942</created>
+      <updated>1353862967942</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -547,11 +551,12 @@
     <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32959402" sideWeight="0.607102" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26146546" sideWeight="0.607102" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26495728" sideWeight="0.607102" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39977092" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -603,7 +608,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="implement my handler" />
+    <option name="LAST_COMMIT_MESSAGE" value="implement my THandler" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -617,6 +622,7 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="implement my handler" />
+    <MESSAGE value="implement my THandler" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -629,35 +635,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/code/Request.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="0" selection-start="656" selection-end="656" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/code/ChainFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/code/Handler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="22" selection-start="76" selection-end="76" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/code/OHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/code/JHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="13" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0">
           <folding />
@@ -678,19 +656,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/THandlerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/code/ChainFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="46" selection-start="587" selection-end="587" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="11" column="13" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/code/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="22" selection-start="76" selection-end="76" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/code/JHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/code/Request.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="0" selection-start="656" selection-end="656" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/ChainFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="98" selection-start="1495" selection-end="1495" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tests/RequestTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="495" selection-end="495" vertical-scroll-proportion="0.33200794">
+        <state line="23" column="0" selection-start="495" selection-end="495" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/THandlerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="52" selection-start="480" selection-end="480" vertical-scroll-proportion="0.5925926">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
