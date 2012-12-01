@@ -15,7 +15,7 @@ public class ChainFactory {
 
 
 
-	public void registerHandler(Handler handler){
+	public void registerHandler(Handler handler){ 
 		handlers.add(handler);
 	}
 	
