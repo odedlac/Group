@@ -12,6 +12,7 @@ import code.Handler;
 import code.JHandler;
 import code.OHandler;
 import code.Request;
+import code.TomHandler;
 
 /**
  * @author oded
@@ -57,6 +58,24 @@ public class ChainFactoryTest {
 		headHandler= classUnderTest.getChain();
 				
 				
+		
+		Boolean actualOutput = headHandler.handleRequest(request);
+		
+		assertTrue("Handler failed to grab",actualOutput);
+	}
+
+	@Test
+	public void test3_tom() {
+		Request request = new Request("TomHedges","6","7");
+		
+		Handler firstHandler = new TomHandler();
+		Handler headHandler;
+		
+		ChainFactory classUnderTest = new ChainFactory();
+		
+		classUnderTest.registerHandler(firstHandler);
+		
+		headHandler= classUnderTest.getChain();
 		
 		Boolean actualOutput = headHandler.handleRequest(request);
 		
