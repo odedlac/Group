@@ -26,12 +26,14 @@ public class ChainFactoryTest {
 		
 		Handler firstHandler = new OHandler();
 		Handler secondHandler = new JHandler();
+		Handler thirdHandler = new TomHandler();
 		Handler headHandler;
 		
 		ChainFactory classUnderTest = new ChainFactory();
 		
 		classUnderTest.registerHandler(firstHandler);
 		classUnderTest.registerHandler(secondHandler);
+		classUnderTest.registerHandler(thirdHandler);
 		
 		headHandler= classUnderTest.getChain();
 				
@@ -82,4 +84,29 @@ public class ChainFactoryTest {
 		assertTrue("Handler failed to grab",actualOutput);
 	}
 
+	@Test
+	public void test4_oded() {
+		Request request = new Request("TomHedges","9","10");
+		
+		Handler firstHandler = new OHandler();
+		Handler secondHandler = new JHandler();
+		Handler thirdHandler = new TomHandler();
+		Handler headHandler;
+		
+		ChainFactory classUnderTest = new ChainFactory();
+		
+		classUnderTest.registerHandler(firstHandler);
+		classUnderTest.registerHandler(secondHandler);
+		classUnderTest.registerHandler(thirdHandler);
+		
+		headHandler= classUnderTest.getChain();
+				
+				
+		
+		Boolean actualOutput = headHandler.handleRequest(request);
+		
+		assertTrue("Handler failed to grab",actualOutput);
+	}
+
+	
 }
