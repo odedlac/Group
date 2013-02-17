@@ -59,7 +59,7 @@ public class ChainFactoryTest {
 	}
     @Test
     public void test3() {
-        Request request = new Request("Tristian","9","108");
+        Request request = new Request("Car","9","108");
 
         Handler firstHandler = new THandler();
         // Handler secondHandler = new JHandler();
